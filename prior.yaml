@@ -2,8 +2,8 @@ prior:
 
   theta0: 
     type: 'gauss'        # if type is 'uni', range is [lower bound, upper bound]
-    range: [4, 1]      # if type is 'gauss', range is [mean, standard deviation]
+    range: [2, 0.5]      # if type is 'gauss', range is [mean, standard deviation]
 
   theta1: 
     type: 'gauss'      # if type is 'uni', range is [lower bound, upper bound]
-    range: [7, 1]  # if type is 'gauss', range is [mean, standard deviation]
+    range: [4, 0.5]  # if type is 'gauss', range is [mean, standard deviation]

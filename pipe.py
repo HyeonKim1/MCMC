@@ -75,6 +75,7 @@ class my_MCMC:
 
             alpha=post_p-pre_p
             jump_pos=alpha>np.log(np.random.uniform(size=N_walker))    
+            
             pre_theta[jump_pos]=post_theta[jump_pos]
             self.chain[ii+1]=pre_theta
 
